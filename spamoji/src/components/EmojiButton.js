@@ -28,6 +28,10 @@ const EmojiButton = styled(AriaDiv)`
   &:hover {
     box-shadow: 0px 4px 10px rgba(26, 30, 33, 0.2);
   }
+  &:focus {
+    border: 1px solid white;
+    border-radius: 15px;
+  }
 `;
 
 export default EmojiButton;

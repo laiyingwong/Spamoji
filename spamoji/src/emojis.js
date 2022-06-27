@@ -1,5 +1,5 @@
 export const emojis = [
-  { label: "Heartfelt", symbol: "🥰" },
+  { label: "Warm & Fuzzy", symbol: "🥰" },
 
   {
     label: "Hooray!",
@@ -13,7 +13,7 @@ export const emojis = [
     )
   },
   {
-    label: "UH OH",
+    label: "Uh-Oh",
     symbol: (
       <img
         src="https://emoji.slack-edge.com/T024FPYBQ/notlikemeow/69e26d8883c9ed4d.png"
@@ -57,5 +57,5 @@ export const emojis = [
       />
     )
   },
-  { label: "Love & Peace", symbol: "💩" }
+  { label: "Peace & Love", symbol: "💩" }
 ];

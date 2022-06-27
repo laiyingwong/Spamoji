@@ -1,6 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+
 body {
   background-color: lightcoral;
   height: 100vh;
+  font-family: 'Bungee Shade', cursive;
+  color: white;
 }
 
 

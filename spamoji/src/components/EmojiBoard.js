@@ -9,17 +9,18 @@ const EmojiBoardWrapper = styled.div`
   display: flex;
   justify-content: space-between;
   padding: 3rem;
-  padding-top: 15px;
 `;
 
 const BoardTitle = styled.h2`
   display: flex;
   justify-content: center;
+  font-size: 2rem;
 `
 
 const EmojiLabel = styled.h3`
   display: flex;
   justify-content: center;
+  font-family: 'Space Mono', monospace;
 `
 
 const EmojiBoard = () => {
