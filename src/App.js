@@ -10,6 +10,9 @@ const Title = styled.h1`
 const Instruction = styled.h2`
   display: flex;
   justify-content: center;
+  @media (max-width: 1120px) {
+    flex-wrap: wrap;
+  }
 `
 
 const Emoticon = styled.span`

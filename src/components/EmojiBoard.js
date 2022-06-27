@@ -9,6 +9,9 @@ const EmojiBoardWrapper = styled.div`
   display: flex;
   justify-content: space-between;
   padding: 3rem;
+  @media (max-width: 1120px) {
+    flex-wrap: wrap;
+  }
 `;
 
 const BoardTitle = styled.h2`
